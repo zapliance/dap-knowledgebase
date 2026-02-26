@@ -1,0 +1,10 @@
+YearlyTrends
+Short description: This section displays the evolution of key indicators in Master Data over the past four years, revealing numeric patterns and trends.
+
+Example:
+
+    2020: 980 matches detected; 3% anomaly rate; 800 duplicates corrected.
+    2021: 1,120 matches detected; 2.8% anomaly rate; 950 duplicates corrected.
+    2022: 1,450 matches detected; 2.5% anomaly rate; 1,100 duplicates corrected.
+    2023: 1,375 matches detected; 2.2% anomaly rate; 1,050 duplicates corrected.
+    The trend chart shows a steady increase in match detection, with a gradual reduction in anomaly rates, indicating improved data quality processes.

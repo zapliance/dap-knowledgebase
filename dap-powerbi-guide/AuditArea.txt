@@ -1,0 +1,6 @@
+Indicator Overview Dashboard
+Capter 3: Audit area dashboards
+Introduction: Short description what it is and for what it is used. 
+
+1. Indicators from the respective audit area (here: Master Data) that show matches in the dataset. The number of matches for each year is displayed. By clicking on the “+”, the profile level of the respective indicator expands.
+2. Four parameters to filter the results shown in 1. By right-clicking on the relevant circle area, the results in section 1 are filtered accordingly. By holding Ctrl and right-clicking, you can select any number of filter parameters. Right-clicking on a circle area again resets the filter.

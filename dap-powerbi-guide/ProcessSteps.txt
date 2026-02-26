@@ -1,0 +1,10 @@
+ProcessSteps
+Short description: This section outlines the sequence of actions performed during the audit process for the Master Data area. Each step is tracked in the dashboard, showing quantitative progress.
+
+Example:
+
+    Data Collection: 15,000 master data records were extracted from the ERP and CRM systems.
+    Data Cleansing: 1,200 duplicate records and 350 incomplete entries were corrected.
+    Matching Analysis: 2,500 records were flagged as matches based on predefined criteria (e.g., same vendor name and tax ID).
+    Review and Validation: Audit team reviewed 500 flagged matches and validated 420 as genuine anomalies.
+    Reporting: Audit findings summarized in a report distributed to 5 stakeholders, highlighting 380 records requiring further action.
