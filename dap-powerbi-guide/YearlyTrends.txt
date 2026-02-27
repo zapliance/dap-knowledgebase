@@ -8,4 +8,6 @@ Example:
     2022: 1,450 matches detected; 2.5% anomaly rate; 1,100 duplicates corrected.
     2023: 1,375 matches detected; 2.2% anomaly rate; 1,050 duplicates corrected.
     The trend chart shows a steady increase in match detection, with a gradual reduction in anomaly rates, indicating improved data quality processes.
+
+
 {{image:1}}

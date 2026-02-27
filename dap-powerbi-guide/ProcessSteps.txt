@@ -8,4 +8,6 @@ Example:
     Matching Analysis: 2,500 records were flagged as matches based on predefined criteria (e.g., same vendor name and tax ID).
     Review and Validation: Audit team reviewed 500 flagged matches and validated 420 as genuine anomalies.
     Reporting: Audit findings summarized in a report distributed to 5 stakeholders, highlighting 380 records requiring further action.
+
+
 {{image:1}}
