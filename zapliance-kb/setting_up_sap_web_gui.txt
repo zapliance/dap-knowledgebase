@@ -1,0 +1,51 @@
+# SAP Web GUI Knowledge Base
+
+---
+
+## Section 1: Overview
+
+### **Definition**
+**SAP Web GUI** (SAP Web Graphical User Interface) is a web-based interface for SAP systems. It enables users to execute SAP transactions directly in a web browser, eliminating the need for the traditional SAP GUI desktop application.
+
+---
+
+## Section 2: Project Usage
+
+### **Central Role in Data Extraction Projects**
+- The **SAP Web GUI URL** is specified during project setup for data extraction and SAP connection configuration.
+- This URL serves as a central hub for project activities and is referenced across multiple dashboards.
+- By using the URL, users can access individual SAP documents directly from platforms like PowerBI Dashboards, streamlining workflow and reducing manual searches.
+
+---
+
+## Section 3: Configuration
+
+### **How to Configure SAP Web GUI URL**
+- Enter the SAP Web GUI URL during SAP connection setup.
+- Example: `https://mySAP.com:44300`
+
+---
+
+## Section 4: Access Requirements
+
+### **SAP Transaction Codes Needed**
+To view relevant documents, auditors must have SAP authorization for the following transaction codes:
+
+- `FB03`: Display accounting documents
+- `ME53`: Display purchase requisitions
+- `ME23`: Display purchase orders
+- `VL03`: Display deliveries
+- `VA03`: Display sales orders
+- `VF03`: Display billing documents
+
+**Note:** Ensure all users involved in the project have access rights for these transactions.
+
+---
+
+## Section 5: Additional Information
+
+### **Important Notes**
+- Client devices must be able to access the provided SAP Web GUI URL.
+- If access issues occur, contact your SAP administrator for support.
+
+---
