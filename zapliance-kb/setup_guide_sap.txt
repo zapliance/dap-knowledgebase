@@ -1,8 +1,8 @@
-# Setup Guide SAP
+Detailed guide for SAP setup
 
-## Detailed guide for SAP setup
+---
 
-### General Information on Data Extraction
+## Section 1: General Information on Data Extraction
 
 zapAnalytics uses the Remote Function Call (RFC) interface to efficiently extract data from the SAP system. All extracted data is stored locally in a PostgreSQL database as a copy. Only SAP standard function modules and a SAP user with reading rights (system or dialog) are needed. Depending on the agreed solution, SAP tables can be read and narrowed down to specific objects.
 
@@ -10,7 +10,9 @@ To establish a targeted connection with the SAP system, SAP connection parameter
 
 During data extraction, the connection to the SAP system must be maintained. In the event of a connection interruption or missing rights, data extraction must be started again.
 
-### SAP User with RFC Function Module
+---
+
+## Section 2: SAP User with RFC Function Module
 
 This guide provides a comprehensive overview of the necessary authorizations to enable Remote Function Call (RFC) access to your SAP system. The SAP user needs full BBP_RFC_READ_TABLE access rights for optimal functionality.
 
@@ -20,7 +22,7 @@ You can also use a system user (USTYP B in USR02) instead of a dialog user (USTY
 {{image:1}}
 
 
-#### RFC Access Rights
+**RFC Access Rights
 
 The following access rights should be at least available:
 
@@ -48,7 +50,8 @@ The following access rights should be at least available:
 
 > If `*` cannot be assigned to the authorization object `S_TABU_NAM`, the individual tables can also be specified from the data scope.
 
-### Limitation of SAP Tables
+---
+## Section 3: Limitation of SAP Tables
 
 If you do not want to give access to all tables via the `*` wildcard, zapAnalytics requires the following SAP tables that can be entered in the object `S_TABU_NAM`:
 
@@ -61,13 +64,15 @@ DD17S, T000, T001, T001A, T009, T009B, T001K, DD07T, NRIV, T001L, T001W, T003, T
 
 > Disclaimer: Specific zapliance solutions may require a subset of the listed tables. This full list enables the usage of all zapliance solutions.
 
-### Connection Data to the SAP System
+---
+
+## Section 4: Connection Data to the SAP System
 
 To connect to the SAP system, certain connection data is required. zapAnalytics offers the function to enter this connection data when creating the project and reuse it for future projects.
 
 Depending on the configuration of the SAP target system, a distinction is made between message and application servers:
 
-#### Message Server (MSHOST)
+**** Message Server (MSHOST)
 
 - Message Server
 - Message Server Port
@@ -76,7 +81,7 @@ Depending on the configuration of the SAP target system, a distinction is made b
 - SAP Router String
 - SAP Client
 
-#### SAP Application Server
+**** SAP Application Server
 
 - Application Server
 - Instance Number
@@ -99,13 +104,13 @@ Connection Parameters Application Server
 
 {{image:3}}
 
-
-### Usage of SAP Web GUI in Power BI
+---
+## Section 5: Usage of SAP Web GUI in Power BI
 
 zapAnalytics enables you to call up SAP documents directly from Power BI. To do this, the corresponding SAP Web GUI URL must be provided in zapAnalytics.  
 Example: With the web URL `https://mySAP.com:44300/sap/bc/gui/sap/its/webgui`, “mySAP.com:443000” would be entered in zapAnalytics.
 
-### Extended SAP Rights for End Users
+*** Extended SAP Rights for End Users
 
 In order to access the desired documents, the end user (e.g. auditor) requires specific SAP rights. These rights include access to the following SAP transaction codes:
 
@@ -118,6 +123,7 @@ In order to access the desired documents, the end user (e.g. auditor) requires s
 
 Make sure that all relevant users have the necessary authorizations to carry out these transactions.
 
-### Impact on the SAP System
+---
+## Section 6: Impact on the SAP System
 
 In over 2000 projects, RFC has been reliable and there have been no performance impacts on any SAP production system (e.g., R3, ECC, or S4).

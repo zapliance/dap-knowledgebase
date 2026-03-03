@@ -1,10 +1,11 @@
-### How to Inspect Change Documents in SAP:
+How to Inspect Change Documents in SAP:
 
-### SAP transaction codes for inspecting change documents
+---
+
+## Section 1: SAP transaction codes for inspecting change documents
 
 Inspecting change documents in SAP is not always an easy task. Change documents record changes for several different business objects ranging from, e.g. purchase orders to customer master data and many others.
 
-{{image:1}}
 
 
 Here are three ways to display change documents:
@@ -13,13 +14,21 @@ Here are three ways to display change documents:
 - SAP table view with transaction Code SE16
 - SAP Transaction code RSSCD100
 
-### Check Changes Directly in the Business Object
+---
+
+## Section 2: Check Changes Directly in the Business Object
 
 If you know which business object has been changed, you can check changes while displaying the business object using the „Environment“. Example: A Purchase Order can be displayed with transaction code ME23N.
 
 Browse in the menu: More > Environment > Item Changes to display all changes concerning the items of the current purchase order.
 
-### SAP Table View with Transaction Code SE16
+{{image:1}}
+
+
+
+---
+
+## Section 3: SAP Table View with Transaction Code SE16
 
 If you have access rights to view tables in SAP, use transaction code SE16.
 
@@ -34,7 +43,9 @@ If you know the document number of the changed document/business object, use the
 {{image:2}}
 
 
-### SAP Transaction Code RSSCD100
+---
+
+## Section 4: SAP Transaction Code RSSCD100
 
 Use transaction code RSSCD100 to display change documents.
 

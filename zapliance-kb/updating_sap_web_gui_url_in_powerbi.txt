@@ -1,10 +1,9 @@
-# Updating the SAP Web GUI URL in Power BI
+Updating the SAP Web GUI URL in Power BI
 
 ---
 
-## Section 1: Overview
+## Section 1: Purpose
 
-### **Purpose**
 The SAP Web GUI URL is stored in the SAP connection data in zapAnalytics before processing. This enables direct access from Power BI to SAP documents after the Power BI database is created. If the SAP Web URL changes after data extraction, it can be updated in Power BI without reprocessing the extracted data.
 
 ---
