@@ -26,6 +26,9 @@
 
 ---
 
+{{image:1}}
+
+
 ## Section 4: Access Requirements
 
 ### **SAP Transaction Codes Needed**

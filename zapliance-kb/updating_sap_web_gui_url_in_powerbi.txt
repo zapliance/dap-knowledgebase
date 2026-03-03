@@ -18,7 +18,15 @@ The SAP Web GUI URL is stored in the SAP connection data in zapAnalytics before 
 3. **Select the "V_Fact_Indicators" table.**
    - Locate the "SAP Web URL" column.
    - Right-click any row and select "Replace Values".
+   
+   {{image:1}}
+
+
 4. **Enter the new SAP Web URL** to replace the current value.
+
+{{image:2}}
+
+
 5. **Save your changes.**
 
 ---
