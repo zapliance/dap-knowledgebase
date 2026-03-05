@@ -1,0 +1,12 @@
+Document export
+
+Introduction: Short description what it is and for what it is used.
+
+{{image:1}}
+
+
+1. Six parameters to filter the results on this page. Multiple filters can be applied in parallel. 
+2. Enter the name or number of the desired indicator and then select it by right-clicking.
+
+
+
