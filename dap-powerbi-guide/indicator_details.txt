@@ -1,4 +1,4 @@
-Indicator details dashboard
+Indicator details
 
 Introduction: Short description what it is and for what it is used. 
 
